@@ -27,7 +27,7 @@ const johnLennonFacts = function (arr) {
   return result1;
 }
 
-console.log(johnLennonFacts(facts))
+// console.log(johnLennonFacts(facts))
 
 
 
