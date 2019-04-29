@@ -16,18 +16,16 @@
 // }
 
 
-let result1 = [];
 const johnLennonFacts = function (arr) {
   let counter = 0;
   while (counter < arr.length) {
     let curElement = arr[counter];
     curElement = curElement.concat('!!!')
-    result1.push(curElement)
     counter++;
   }
-  return result1;
+  return arr;
 }
-console.log(johnLennonFacts(facts))
+
 
 
 
