@@ -19,7 +19,7 @@
 const johnLennonFacts = function (arr) {
   let counter = 0;
   while (counter < arr.length) {
-    let arr[counter] = arr[counter].concat('!!!')
+    let arr[counter] = arr[counter].concat('!!!');
     counter++;
   }
   return arr;
