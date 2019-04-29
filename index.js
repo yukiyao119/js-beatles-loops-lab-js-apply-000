@@ -15,9 +15,10 @@ const theBeatlesPlay = function(musicians, instruments){
   return result;
 }
 
-let result1 = [];
+
 const johnLennonFacts = function (arr) {
   let counter = 0;
+  let result1 = [];
   while (counter < arr.length) {
     let element = arr[counter];
     element = (element + '!!!');
