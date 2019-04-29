@@ -25,8 +25,9 @@ const johnLennonFacts = function (arr) {
     result1.push(curElement)
     counter++;
   }
-  console.log(result1);
+  return result1;
 }
+
 
 
 
