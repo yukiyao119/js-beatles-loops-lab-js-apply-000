@@ -21,7 +21,7 @@ const johnLennonFacts = function (arr) {
   let counter = 0;
   while (counter < arr.length) {
     let curElement = arr[counter];
-    curElement = (curElement + '!!!')
+    curElement = curElement.concat('!!!')
     result1.push(curElement)
     counter++;
   }
