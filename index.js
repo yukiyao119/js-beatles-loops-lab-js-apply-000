@@ -17,10 +17,10 @@ const theBeatlesPlay = function(musicians, instruments){
 
 
 let result1 = [];
-const johnLennonFacts = function (array) {
+const johnLennonFacts = function (arr) {
   let counter = 0;
-  while (counter < array.length){
-    let curElement = array[counter];
+  while (counter < arr.length) {
+    let curElement = arr[counter];
     curElement = (curElement + '!!!')
     result1.push(curElement)
     counter++;
