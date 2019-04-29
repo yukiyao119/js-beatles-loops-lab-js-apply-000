@@ -29,7 +29,14 @@ const johnLennonFacts = function (arr) {
 }
 // console.log(johnLennonFacts(facts))
 
-const iLoveTheBeatles = 
+const iLoveTheBeatles = function (num){
+  let result2 = [];
+  do {
+    result2.push("I love the Beatles!");
+    num++;
+  } while (num<15);
+  return result2;
+}
 
 
 
